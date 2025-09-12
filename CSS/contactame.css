@@ -44,7 +44,7 @@ html {
 .container-header header .logo a {
     font-family: 'righteous', cursive;
     font-size: 36px;
-     color: blue;
+     color: rgb(255, 0, 187);
     text-decoration: none;
 }
 
@@ -63,7 +63,7 @@ html {
 }
 
 .container-header header nav ul li a:hover {
-    color: blue
+    color: rgb(255, 0, 255)
 }
 
 /* BODY*/
@@ -104,7 +104,7 @@ h1{
     color: rgb(255, 255, 255); 
     font-weight: bold;
     margin-top: 20px;
-    color: blue;
+    color: rgb(255, 0, 183);
     font-style: italic;
     
 }
@@ -127,7 +127,7 @@ textarea{
     box-sizing: border-box;
 }
 button {
-    background-color: blue;
+    background-color: rgb(254, 0, 254);
     color: white;
     padding: 10px 20px;
     width: 340px;
@@ -137,7 +137,7 @@ button {
     transition: background-color 0.3s ease;
 }
 button:hover {
-    background-color: rgb(46, 113, 173);
+    background-color: rgb(239, 146, 220);
 }
 
 
