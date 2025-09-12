@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+*{
+    box-sizing: border-box;
+    font-family: "Epuda Slab";
+    margin: 0;
+    padding: 0;
+}
+.container-header{
+    background: rgb(14, 14, 14);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.container-header header {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.container-header header .logo a {
+    font-family: 'Epuda Slab';
+    font-size: 36px;
+    color: #ec06d1;
+    text-decoration: none;
+}
+.container-header header ul{
+    display: flex;
+    list-style: none;
+}
+.container-header header nav ul li a {
+    text-align: center;
+    color: #fff;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+.container-header header nav ul li a:hover{
+     color: #d48cce;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1a73e8;
+}
+
+.nav-links a {
+    color: #e9ecef;
+    text-decoration: none;
+    margin-left: 2rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #1a73e8;
+}
+
+
+img{
+    height: 200px;
+    width: 308px;
+    position: center;
+    border-radius: 5px;
+}
+h1{
+    font-style: italic;
+    margin-top: 150px;
+    text-align: center;
+    color: #bd56ae;
+}
+p{
+    text-align: center;
+}
+/* Estilos de la seccion principal */
+github
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 20%;
+    color: #f1f1f1;
+}
+
+/* Estilos de los proyectos */
+.projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.project-card {
+    background-color: #343a40;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 350px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: left;
+}
+
+.project-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.project-image {
+    width: 100%;
+    height: 2%;
+    object-fit: cover;
+   border-radius: 8px;
+   margin-bottom: 1rem;
+}
+
+.project-title {
+    font-size: 1.25rem;
+    color: #bd56ae;
+    margin-bottom: 0.5rem;
+}
+
+.project-description {
+    font-size: 0.9rem;
+    color: #adb5db;
+    margin-bottom: 1rem;
+}
+
+.project-links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+}
+
+.link-github, .link-web {
+    color: #e9ecef;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    left: 30px;
+}
+
+.link-github {
+    background-color: #495057;
+}
+
+.link-web {
+    background-color: #495057;
+    margin-left: 146px;
+    margin-bottom: 40px;
+}
+
+.link-github:hover, .link-web:hover {
+    background-color: #2076c1;
+}
+
+footer {
+    background-color: rgb(20, 19, 19);
+    color: #c35ea8;
+    padding: 45px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin-top: 30%;
+}
+
+footer.redes {
+margin-bottom: 40px;
+}
+
+footer.redes a {
+color: #bda1a1;
+display: inline-block;
+border: 1px solid #d8cbcb;
+border-radius: 100%;
+width: 402px;
+height: 402px;
+line-height: 42px;
+margin: 40px;
+font-size: 20px;
+transition: 3s;
+}
+
+
