@@ -62,18 +62,18 @@ text-decoration: none;
 }
 
 .container-header header nav ul li a:hover {
-color: #1cb698;
+color: #ec06d1;
 }
 
 #menu-toggle {
-    display: none;
+    display: none !important;
 }
 
 .menu-icon {
     display: none;
     font-size: 24px;
     cursor: pointer;
-    color: #ff00ea;
+    color: #ec06d1;
     margin-left: auto;
     border-radius: 20px;
 }
@@ -108,7 +108,7 @@ margin-bottom: 20px;
 }
 
 .sobremi.container-section p span {
-color: #1cb698;
+color: #ec06d1;
 font-weight: bold;
 }
 
@@ -136,7 +136,7 @@ margin: 12px 0;
 
 .sobremi .fila .col ul strong {
 display: inline-block;
-color: #1cb698;
+color: #ec06d1;
 width: 120px;
 text-align: right;
 }
@@ -161,7 +161,7 @@ transition: .3s;
 }
 
 .sobremi .fila .col .container-interes .interes:hover {
-background-color: #1cb698;
+background-color: #ec06d1;
 }
 footer {
 background-color:black;
@@ -190,8 +190,8 @@ transition: all 0.3s ease;
 }
 
 footer .redes a:hover {
-background: #1cb698;
-border-color: #1cb698;
+background: #76d5c1;
+border-color: #76d5c1;
 transform: scale(1.1);
 }
 
@@ -212,7 +212,7 @@ transform: scale(1.1);
     top: 20px;
     z-index: 300;
 }
-}
+
 
 /*Menu oculto*/
 .container-header header .nav ul {
@@ -245,6 +245,86 @@ transform: scale(1.1);
     text-align: left;
 }
  
+@media (max-width: 768px) {
+    .container-header header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+.container-header header ul {
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.container-header header nav ul li {
+    margin: 10px 0;
+}
+
+.sobremi {
+    padding: 80px 15px;
+}
+
+.sobremi h2 {
+    font-size: 36px;
+}
+
+.sobremi .fila {
+    flex-direction: column;
+}
+
+.sobremi .fila .col {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.sobremi .fila .col h3 {
+    font-size: 24px;
+}
+
+.sobremi .fila .col ul strong {
+    width: auto;
+    text-align: left;
+}
+
+.sobremi .fila .col .container-interes {
+    justify-content: center;
+}
+
+.sobremi .fila .col .container-interes .ineteres {
+    width: 80px;
+    height: 80px;
+   font-size: 14px;
+}
+
+footer .redes a {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+}
+}
+
+@media (max-width: 480px) {
+    .container-header header .logo a {
+        font-size: 28px;
+    }
+
+.sobremi h2 {
+    font-size: 28px;
+}
+
+.sobremi .container-section p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.sobremi .fila .col h3 {
+    font-size: 20px;
+}
+}
 
 
 
